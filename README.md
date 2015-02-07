@@ -7,7 +7,7 @@ first create big bitmap in a temp folder
 ```java
 int width=10000;
 int height=10000;
-Buyukce big = Buyukce.createBigBitmap(ctx, Util.getTempFolder(), width, height);
+Buyukce big = Buyukce.createBigBitmap(ctx, "/sdcard/tmp", width, height);
 ```
 
 then you can draw object on this object
